@@ -5,7 +5,7 @@
 
 .header_container{
     padding-top: 3px;
-    width: 90%;
+    width: 95%;
     margin: auto;
 }
 
@@ -33,24 +33,28 @@ body{
 .header{ 
     width: 100%;
     height: auto;
-    margin-bottom: 5px;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 .titre{
     font-family: 'Pacifico', cursive;
     font-size: 43px;
+   
 }
 
 .container{
     width: 80%;
     margin: auto;
     text-align: justify;
+    margin-bottom: 20px;
+
 }
 
 .body_title{
     font-family: 'Pacifico', cursive;
-    border-bottom: 3px solid rgb(160, 21, 21);
-    margin-top: 2%;
+    border-bottom: 3px solid /*#158917*/  #daf5cd;
+    margin-top: 4%;
     margin-bottom: 2%;
 }
 
@@ -64,7 +68,7 @@ body{
 
 .header_navbar_menu_link:hover{
     text-decoration: none;
-    background-color: rgb(228, 13, 13);
+    background-color: rgb(39, 189, 77);
     color: white;
     padding: 7px 10px;
     border-radius: 4px;
@@ -75,7 +79,7 @@ body{
 .header_navbar_menu_link_focused{
     margin-left: 20px;
     text-decoration: none;
-    background: rgb(160, 21, 21);
+    background: #158917;
     color: white;
     padding: 7px 10px;
     border-radius: 4px;
@@ -83,7 +87,7 @@ body{
 
 .header_navbar_menu_link_focused:hover{
     text-decoration: none;
-    background-color: rgb(228, 13, 13);
+    background-color: rgb(39, 189, 77);
     color: white;
     padding: 7px 10px;
     border-radius: 4px;
@@ -101,5 +105,61 @@ body{
 }
 
 .footer{
-    background-color: rgb(160, 21, 21);
+    background-color: rgb(39, 189, 77);
+}
+
+.container_soins{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    justify-content: space-around;
+}
+
+.fiche_soins{
+    background-color: rgb(200, 200, 200);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.soins{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    padding: 1%;
+    background-color: #daf5cd;
+    border-radius:2%;
+    /*border:2px solid rgb(39, 189, 77);*/
+}
+
+.image_soins{
+    width: 35%;
+    border-radius:5%;
+}
+
+.image_titre_link{
+    width:30%;
+    margin-top: 2%;
+    
+}
+
+.image_titre{
+    width:70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.desc{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
+    vertical-align: middle;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.liste{
+    margin-left: 3%;
 }
