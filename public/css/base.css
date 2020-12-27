@@ -43,17 +43,19 @@ body{
    
 }
 
-.container{
+.container_body{
     width: 80%;
     margin: auto;
     text-align: justify;
     margin-bottom: 20px;
+    margin-bottom: 5%;
+
 
 }
 
 .body_title{
     font-family: 'Pacifico', cursive;
-    border-bottom: 3px solid /*#158917*/  #daf5cd;
+    border-bottom: 3px solid #158917;
     margin-top: 4%;
     margin-bottom: 2%;
 }
@@ -96,6 +98,10 @@ body{
 
 .carte{
     margin-top: 5%;
+    margin-bottom: 5%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .photo{
@@ -162,4 +168,26 @@ body{
 
 .liste{
     margin-left: 3%;
+}
+
+@media only screen and (max-width: 1185px){
+    .soins{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+        padding: 1%;
+        background-color: #daf5cd;
+        border-radius:5%;
+        /*border:2px solid rgb(39, 189, 77);*/
+    }
+    .image_soins{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        border-radius:5%;
+    }
+    
 }

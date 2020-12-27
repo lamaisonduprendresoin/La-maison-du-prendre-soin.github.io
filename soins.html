@@ -5,6 +5,7 @@
         <script src="https://kit.fontawesome.com/892fde2f53.js" crossorigin="anonymous"></script>
         <link rel="icon" type="image/png" href="public/image/logo_belle_nature_2.png" />
         <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="stylesheet" href="public/css/base.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <title>Belle Nature</title>
@@ -25,10 +26,10 @@
         
           <img class="d-block w-100" src="public/image/background_site4_flou.png">
 
-        <div class="container">
+        <div class="container_body">
 
-            <div class="container_soins"> 
-            <div class="soins">
+            <div class="container_soins" > 
+            <div class="soins" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="750" data-aos-offset="10">
               <img class="image_soins" src="public/image/Hydrotomie_percutanée.jpg">
               <div class="desc">
             <strong>Définition:</strong>  Technique médicale de soin qui consiste en l'injection d'une solution saline physiologique
@@ -48,7 +49,7 @@
             </ul>
               </div>
             </div>
-              <div class="soins">
+              <div class="soins" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="750" data-aos-offset="10">
                 
                 <div class="desc">
               <strong>Définition:</strong>  Composante à part entière de la médecine traditionnelle indienne. ils permettent d'atteindre le bien-être, la relaxation 
@@ -66,7 +67,7 @@
                 <img class="image_soins" src="public/image/Massages_ayurvédiques.jpg">
             </div>
 
-            <div class="soins">
+            <div class="soins" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="750" data-aos-offset="10">
                 <img class="image_soins" src="public/image/Aromathérapie.jpg">
                 <div class="desc">
               <strong>Définition</strong>: Branche de la phytothérapie. C'est l'utilisation des huiles essentielles par massage ou inhalation (méthode naturelle).<br>
@@ -82,7 +83,7 @@
                 </div>
                 
             </div>
-            <div class="soins">
+            <div class="soins" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="750" data-aos-offset="10">
                 <div class="desc">
               <strong>Définition:</strong>  Accompagnement psychologique sous forme d'entretien en tête à tête d'une personne en détresse morale
               ou en demande de soutien sans jugement de la part du soignant.<br>
@@ -96,7 +97,7 @@
                 <img class="image_soins" src="public/image/relation.jpg">
             </div>
 
-            <div class="soins">
+            <div class="soins" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="750" data-aos-offset="10">
                 <img class="image_soins" src="public/image/Sophro-relaxation.jpg">
                 <div class="desc">
               <strong>Définition:</strong>  La relaxation est une pratique psychosomatique qui consiste à induire chez le patient, par différents procédés, 
@@ -116,7 +117,7 @@
         </div>
      </div>
             <!-- Footer -->
-<footer class="page-footer font-small cyan darken-3">
+<footer class="text-white text-center text-lg-start"  style="background-color: #158917; width: 100%;">
 
     <!-- Footer Elements -->
     <div class="container">
@@ -132,14 +133,6 @@
             <a class="fb-ic">
               <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
             </a>
-            <!-- Twitter -->
-            <a class="tw-ic">
-              <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-            </a>
-            <!-- Google +-->
-            <a class="gplus-ic">
-              <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-            </a>
             <!--Linkedin -->
             <a class="li-ic">
               <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
@@ -147,10 +140,6 @@
             <!--Instagram-->
             <a class="ins-ic">
               <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-            </a>
-            <!--Pinterest-->
-            <a class="pin-ic">
-              <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
             </a>
           </div>
         </div>
@@ -170,5 +159,12 @@
   
   </footer>
   <!-- Footer -->
-    </body>
+  
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+  </body>
+
 </html>
