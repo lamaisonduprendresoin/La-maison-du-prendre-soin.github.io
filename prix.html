@@ -5,6 +5,7 @@
         <script src="https://kit.fontawesome.com/892fde2f53.js" crossorigin="anonymous"></script>
         <link rel="icon" type="image/png" href="public/image/logo_belle_nature_2.png" />
         <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="stylesheet" href="public/css/base.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <title>La maison du prendre soin</title>
@@ -15,46 +16,34 @@
                 <div class="container_bar">            
                     <div class="header_navbar_menu">
                         <a href="index.html" class="header_navbar_menu_link"><i class="fas fa-home"></i> Accueil</a>
-                        <a href="presentation.html" class="header_navbar_menu_link_focused"><i class="fas fa-id-card"></i> présentation</a>
+                        <a href="presentation.html" class="header_navbar_menu_link"><i class="fas fa-id-card"></i> présentation</a>
                         <a href="soins.html" class="header_navbar_menu_link"><i class="fas fa-medkit"></i> Soins</a>
-                        <a href="prix.html" class="header_navbar_menu_link"><i class="fas fa-medkit"></i> Tarifs</a>
+                        <a href="prix.html" class="header_navbar_menu_link_focused"><i class="fas fa-medkit"></i> Tarifs</a>
                     </div>
                 </div>
             </div>
         </div>
 
-
-        <img class="d-block w-100" src="public/image/background_site4_flou.png">
-
-
-        <div class="container_body">
-            <h1 class="body_title">Qui suis-je ?</h1>
         
-            Parce que "prendre soin des autres" a toujours été mon principal but, je n'ai eu de cesse de me former tout d'abord en 
-            Biologie, domaine dans lequel j'ai exercé pendant une dizaine d'années, dans un premier temps en Anatomie Pathologie puis 
-            en Biologie Médicale. <br>
-            Ma "frustration" de m'arréter aux prise de sang et diverses analyses sans avoir "la suite" de la prise en charge et "mon amour"
-            pour les gens m'ont poussé à suivre une formation certificante en Sophro-Relaxation et à faire mes études d'infirmière.
-            Je suis persuadé que pour une prise en charge optimale il faut que celle-ci soit holistique, c'est à dire "complète",
-            que le mental soit autant "écouté" que le "physique" afin d'avoir une vraie prise en charge globale. <br>
-            J'ai développé, au cours de mon exercice professionnel en tant qu'infirmière, les soins relationnels tout en gardant mon attrait
-            pour les soins techniques. <br>
-            Dans le but de pouvoir apporter plus à ma pratique professionnelle je me suis formé à l'Aromathérapie avec le Dr. Guilhem Jocteur
-            et à l'Hydrotomie Percutanée avec le Dr. Bernard Guez, ainsi qu'au massage ayurvédique abhyanga au sein de l'école AZENDAY.<br>
-            Après avoir exercé en service de Dialyse, de Chirurgie, Salle de Réveil et enfin en Libéral sur le commune de Gémenos, j'ai eu
-            envie de créer cette "Maison du prendre soin" pour vous accueillir et vous proposer différentes techniques pour votre mieux-être.
-
-        </div>
+          <img class="d-block w-100" src="public/image/background_site4_flou.png">
 
         <div class="container_body">
-          <h1 class="body_title">Pourquoi j'ai choisi "La Maison du Prendre Soin" ?</h1>
-      
-          Tout simplement, parce que je souhaite que mes patients se sentent à l'aise et viennent me voir comme "une amie" dans sa maison,
-          où je prendrais soin d'eux tant sur le plan psychologique que physique. Et ce afin de leur procurer bien-être, apaisement
-          et épanouissement.
-
-      </div>
-    <!-- Footer -->
+          <h1 class="body_title">Tarifs</h1>
+          <dl>
+            <dt>
+              Hydrotomie Percutanée :
+              <dd>
+                <ul>
+                  <li>  Mains seringues : 40 €</li>
+                  <li>  Perfusion : 60 €</li>
+                </ul>
+              </dd>
+            </dt>
+            <dt>Autres Soins : 50 €</dt>
+            <dt>Bilan : 60 €</dt>
+          </dl>       
+        </div>
+            <!-- Footer -->
 <footer class="text-white text-center text-lg-start"  style="background-color: #158917; width: 100%;">
 
     <!-- Footer Elements -->
@@ -97,5 +86,12 @@
   
   </footer>
   <!-- Footer -->
-    </body>
+  
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+  </body>
+
 </html>
