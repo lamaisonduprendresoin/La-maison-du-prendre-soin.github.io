@@ -43,6 +43,23 @@ body{
    
 }
 
+.container_banner{
+    background-color: grey;
+}
+
+.banner{
+    display: block;
+    width: 100%;
+    z-index: 10;
+}
+
+.img-logo{
+    position: absolute;
+    z-index: 20;
+    width: 20%;
+    padding-top: 8em;
+}
+
 .container_body{
     width: 80%;
     margin: auto;
@@ -174,6 +191,10 @@ body{
 }
 
 .liste{
+    margin-left: 3%;
+}
+
+.sublists{
     margin-left: 3%;
 }
 
