@@ -115,6 +115,10 @@ body{
 }
 
 
+.contact{
+    text-align: left;
+}
+
 .carte{
     overflow:hidden;
     padding-bottom:56.25%;
