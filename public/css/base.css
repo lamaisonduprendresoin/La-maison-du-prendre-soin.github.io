@@ -158,6 +158,11 @@ body{
     border-radius: 20px;
 }
 
+.link_soin{
+    text-decoration: underline;
+    
+}
+
 .soins{
     width: 100%;
     display: flex;
@@ -226,6 +231,14 @@ body{
 .header_navbar_toggle_icons:before{top: 10px;}
 .header_navbar_toggle_icons:after{top: -13px;}
 
+
+.ins-ic{
+    color:white;
+}
+
+.ins-ic:hover{
+    color:darkgrey;
+}
 
 @media only screen and (max-width: 1185px){
     .soins{
