@@ -6,9 +6,12 @@
 }
 
 .header_container{
+    position: relative;
+    z-index: 50;
     padding-top: 3px;
     width: 95%;
     margin: auto;
+
 }
 
 body{
@@ -18,18 +21,21 @@ body{
     overflow-x: hidden;
 }
 
-.header_navbar_logo_image{
+/*.header_navbar_logo_image{
     width: 50%;
     height: 50%;
     padding-left: 50%;
-}
+}*/
 
 .container_bar{
     width: auto;
-    display: flex;
+    /*display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;*/
+}
+
+.header_navbar_menu{
 }
 
 .header{ 
@@ -68,8 +74,6 @@ body{
     text-align: justify;
     margin-bottom: 20px;
     margin-bottom: 5%;
-
-
 }
 
 .body_title{
