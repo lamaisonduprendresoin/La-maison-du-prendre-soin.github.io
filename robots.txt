@@ -1,8 +1,8 @@
 User-Agent: *
 Sitemap: https://lamaisonduprendresoin.fr/sitemap.xml
-Allow: /index.html
-Allow: /presentation.html
-Allow: /charte.html
-Allow: /prix.html
-Allow: /soins.html
-Disallow: /public/
+Disallow: /soins_new.html 
+Disallow: /sophro.html 
+Disallow: /toucher_detente.html
+Disallow: /relation.html
+Disallow: /aromatherapie.htm
+Disallow: /layurveda.html
