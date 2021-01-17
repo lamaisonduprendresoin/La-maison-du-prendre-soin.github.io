@@ -1,3 +1,3 @@
 User-Agent: *
-Sitemap: https://lamaisonduprendresoin.github.io/La-maison-du-prendre-soin.github.io/sitemap.xml
+Sitemap: https://lamaisonduprendresoin.fr/sitemap.xml
 Allow: /index.html /presentation.html /charte.html /prix.html /soins.html
