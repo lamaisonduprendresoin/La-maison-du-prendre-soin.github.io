@@ -71,14 +71,13 @@ body{
     width: 80%;
     margin: auto;
     text-align: justify;
-    margin-bottom: 20px;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 
 .body_title{
     font-family: 'Pacifico', cursive;
     border-bottom: 3px solid #158917;
-    margin-top: 4%;
+    margin-top: 2%;
     margin-bottom: 2%;
     text-align: left;
 }
