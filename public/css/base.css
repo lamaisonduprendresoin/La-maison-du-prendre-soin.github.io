@@ -2,7 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-
+    
 }
 
 .header_container{
@@ -48,7 +48,6 @@ body{
 .titre{
     font-family: 'Pacifico', cursive;
     font-size: 43px;
-   
 }
 
 .container_banner{
@@ -81,6 +80,7 @@ body{
     border-bottom: 3px solid #158917;
     margin-top: 4%;
     margin-bottom: 2%;
+    text-align: left;
 }
 
 .header_navbar_menu_link{
@@ -245,6 +245,13 @@ body{
 }
 
 @media only screen and (max-width: 1185px){
+    *{
+        box-sizing: border-box;
+    }
+    html{
+        overflow-x: hidden;
+
+    }
     .header{ 
         margin-bottom: 0;
         margin-top: 0;
@@ -257,6 +264,15 @@ body{
         padding-top: 5em;
     }
 
+    .body_title{
+        font-family: 'Pacifico', cursive;
+        font-size: 25px;
+        border-bottom: 3px solid #158917;
+        margin-top: 4%;
+        margin-bottom: 2%;
+        text-align: left;
+    }
+
     .soins{
         width: 100%;
         display: flex;
@@ -266,6 +282,10 @@ body{
         background-color: #daf5cd;
         border-radius:5%;
         /*border:2px solid rgb(39, 189, 77);*/
+    }
+
+    .desc{
+        text-align: left;
     }
     .image_soins{
         width: 80%;
