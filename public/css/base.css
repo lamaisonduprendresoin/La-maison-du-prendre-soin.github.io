@@ -63,7 +63,7 @@ body{
 .img-logo{
     position: absolute;
     z-index: 20;
-    width: 20%;
+    width: 30%;
     padding-top: 8em;
 }
 
@@ -98,7 +98,16 @@ body{
     border-radius: 4px;
 }
 
+.container_photo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+.photo_cab{
+    width: 27%;
+    border-radius:4px;
+}
 
 .header_navbar_menu_link_focused{
     margin-left: 20px;
