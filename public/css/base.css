@@ -105,8 +105,12 @@ body{
 }
 
 .photo_cab{
-    width: 27%;
+    width: 100%;
     border-radius:4px;
+}
+
+.photo_link{
+    width: 27%;
 }
 
 .header_navbar_menu_link_focused{
